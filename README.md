@@ -77,5 +77,8 @@ These can be exported as **images, videos, and interactive dashboards** for stak
 - 📸 **Images**:  
   - `agroforestry_tree_detection.jpg` – Example of tree detection.
 - 🎥 **Videos**: 
-  - `demo/mobile_app_demo.mp4` – farmer app visulaization demo.  
-  - `demo/web_dashboard_demo.mp4` – Farmer/surveyor web-app usage demo.  
+  - `demo/mobile_app_demo.mp4` – farmer app visulaization demo.
+    Mobile app snippet: <img width="507" height="1076" alt="image" src="https://github.com/user-attachments/assets/931da2f0-ff65-471f-8470-72b31744feca" />
+
+  - `demo/web_dashboard_demo.mp4` – Farmer/surveyor web-app usage demo.
+    Web app snippet: <img width="1917" height="788" alt="image" src="https://github.com/user-attachments/assets/2357f378-00cc-4d6e-a5ce-c15a7a91e953" />  
