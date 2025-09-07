@@ -8,7 +8,6 @@
 5. [Intended Users](#intended-users)  
 6. [Functionality](#functionality)  
 7. [Outputs](#outputs)  
-   - [Example Outputs](#demo)   
 
 ---
 
