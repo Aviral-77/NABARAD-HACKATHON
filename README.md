@@ -18,7 +18,7 @@
 ---
 
 ## Overview
-AgriVeritas is a scalable, cost-effective **Monitoring, Reporting, and Verification (MRV) system** designed for smallholder-driven agriculture.  
+GreenLedger is a scalable, cost-effective **Monitoring, Reporting, and Verification (MRV) system** designed for smallholder-driven agriculture.  
 It leverages **drone-based remote sensing, AI/ML models, and GIS tools** to monitor **paddy fields and agroforestry systems**.  
 
 By detecting **tree count, type, canopy coverage, and crop health** from aerial imagery, the system generates accurate estimates of **carbon stock and sequestration**.  
