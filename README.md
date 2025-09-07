@@ -1,7 +1,24 @@
 # GreenLedger – MRV System for Paddy & Agroforestry
 
+## Table of Contents
+1. [Overview](#overview)  
+2. [Technology Stack](#technology-stack)  
+3. [Prototype Description](#prototype-description)  
+4. [Key Features](#key-features)  
+5. [Intended Users](#intended-users)  
+6. [Functionality](#functionality)  
+7. [Outputs](#outputs)  
+   - [Example Outputs](#example-outputs)  
+   - [Media Samples](#media-samples)  
+8. [Unique or Impactful Aspects](#unique-or-impactful-aspects)  
+9. [Key Innovation / Differentiator](#key-innovation--differentiator)  
+10. [Potential Impact & Scalability](#potential-impact--scalability)  
+11. [License](#license)  
+
+---
+
 ## Overview
-GreenLedger is a scalable, cost-effective **Monitoring, Reporting, and Verification (MRV) system** designed for smallholder-driven agriculture.  
+AgriVeritas is a scalable, cost-effective **Monitoring, Reporting, and Verification (MRV) system** designed for smallholder-driven agriculture.  
 It leverages **drone-based remote sensing, AI/ML models, and GIS tools** to monitor **paddy fields and agroforestry systems**.  
 
 By detecting **tree count, type, canopy coverage, and crop health** from aerial imagery, the system generates accurate estimates of **carbon stock and sequestration**.  
@@ -12,7 +29,7 @@ This empowers **farmers, policymakers, and verifiers** to track sustainability, 
 ## Technology Stack
 - **Remote Sensing & Drones** – High-resolution drone imagery and multispectral data for farmland and agroforestry monitoring.  
 - **GIS & Geospatial Processing** – ArcGIS, QGIS, Rasterio, GeoPandas, and GeoServer for spatial analysis, mapping, and visualization.  
-- **AI/ML & Computer Vision** – Vision-Language Models (VLMs), YOLO for object detection, SAMGeo for segmentation, and zero-shot classification for crop/tree detection.  
+- **AI/ML & Computer Vision** – Vision-Language Models (VLMs), segmentation models, and zero-shot classification for crop/tree detection.  
 - **Height & Biomass Estimation** – DEMs and CHMs to estimate tree height and biomass.  
 - **Mobile Application** – Kotlin-based Android app for field-level data collection, ground-truthing, and farmer access.  
 - **Data Management & APIs** – PostgreSQL/PostGIS for spatial data storage with REST APIs.  
@@ -70,7 +87,7 @@ These can be exported as **images, videos, and interactive dashboards** for stak
 
 ### Media Samples
 - 📸 **Images**:  
-  - `outputs/tree_detection_map.png` – Example of YOLO + SAMGeo-based tree detection.  
+  - `outputs/tree_detection_map.png` – Example of tree detection.  
   - `outputs/paddy_classification.png` – Paddy crop type and yield classification.  
   - `outputs/dashboard_view.png` – MRV dashboard screenshot.  
 
@@ -93,10 +110,4 @@ These can be exported as **images, videos, and interactive dashboards** for stak
 - **Farmer-first approach** – Shifts MRV from top-down to participatory and field-driven.  
 - **Integrated Monitoring** – Unifies paddy and agroforestry into one MRV solution.  
 - **Data Fusion at Scale** – Merges drone imagery, satellite datasets, and ground data for high accuracy.  
-- **Affordable Climate MRV** – Tailored for smallholders in resource-constrained environments.  
-
----
-
-## License
-This project is developed for the **NABARD Hackathon 2025**.  
-Future releases may be published under an **open-source license** for wider adoption.  
+- **Affordable Climate MRV** – Tailored for small
