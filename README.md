@@ -4,10 +4,10 @@
 1. [Overview](#overview)  
 2. [Technology Stack](#technology-stack)  
 3. [Prototype Description](#prototype-description)  
-4. [Key Features](#key-features)  
-5. [Intended Users](#intended-users)  
-6. [Functionality](#functionality)  
-7. [Outputs](#outputs)  
+4. [Functionality](#functionality)  
+5. [Outputs](#outputs)
+6. [Key Features](#key-features)
+7. [Intended Users](#intended-users)  
 
 ---
 
@@ -41,24 +41,6 @@ The solution is designed to be **low-cost, accessible, and scalable across diver
 
 ---
 
-## ✨ Key Features
-- **Geospatial Data Integration** – Raster and shapefile layers for land cover, paddy fields, and agroforestry trees.  
-- **Paddy Monitoring** – Seasonal tracking, yield estimation, and methane emission indicators for climate-smart rice cultivation.  
-- **Agroforestry Insights** – Tree survival verification, canopy height, and carbon sequestration estimates.  
-- **Mobile Application** – Android app for offline/low-connectivity farmer and surveyor use.  
-- **Web Dashboard** – Aggregated analysis for NABARD, policymakers, and researchers.  
-- **MRV Functionality** – End-to-end support for **Monitoring, Reporting, and Verification** workflows.  
-- **Scalable & Smallholder-Friendly** – Deployable across different agro-climatic zones at low cost.  
-
----
-
-## 👥 Intended Users
-- **Farmers & Surveyors** – For field-level monitoring, data entry, and feedback.  
-- **NABARD & Policymakers** – For program evaluation, subsidy targeting, and MRV compliance.  
-- **Researchers & Verifiers** – For dataset validation, carbon modeling, and third-party audits.  
-
----
-
 ## ⚙️ Functionality
 1. Drone and satellite data are collected and processed into **raster and shapefile outputs**.  
 2. Data is integrated into the **Android app** (field-level visualization & ground-truthing).  
@@ -81,4 +63,22 @@ These can be exported as **images, videos, and interactive dashboards** for stak
     Mobile app snippet: <img width="507" height="1076" alt="image" src="https://github.com/user-attachments/assets/931da2f0-ff65-471f-8470-72b31744feca" />
 
   - `demo/web_dashboard_demo.mp4` – Farmer/surveyor web-app usage demo.
-    Web app snippet: <img width="1917" height="788" alt="image" src="https://github.com/user-attachments/assets/2357f378-00cc-4d6e-a5ce-c15a7a91e953" />  
+    Web app snippet: <img width="1917" height="788" alt="image" src="https://github.com/user-attachments/assets/2357f378-00cc-4d6e-a5ce-c15a7a91e953" />
+
+---
+
+## ✨ Key Features
+- **Geospatial Data Integration** – Raster and shapefile layers for land cover, paddy fields, and agroforestry trees.  
+- **Paddy Monitoring** – Seasonal tracking, yield estimation, and methane emission indicators for climate-smart rice cultivation.  
+- **Agroforestry Insights** – Tree survival verification, canopy height, and carbon sequestration estimates.  
+- **Mobile Application** – Android app for offline/low-connectivity farmer and surveyor use.  
+- **Web Dashboard** – Aggregated analysis for NABARD, policymakers, and researchers.  
+- **MRV Functionality** – End-to-end support for **Monitoring, Reporting, and Verification** workflows.  
+- **Scalable & Smallholder-Friendly** – Deployable across different agro-climatic zones at low cost.  
+
+---
+
+## 👥 Intended Users
+- **Farmers & Surveyors** – For field-level monitoring, data entry, and feedback.  
+- **NABARD & Policymakers** – For program evaluation, subsidy targeting, and MRV compliance.  
+- **Researchers & Verifiers** – For dataset validation, carbon modeling, and third-party audits.  
