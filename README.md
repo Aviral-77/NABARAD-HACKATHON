@@ -8,12 +8,7 @@
 5. [Intended Users](#intended-users)  
 6. [Functionality](#functionality)  
 7. [Outputs](#outputs)  
-   - [Example Outputs](#example-outputs)  
-   - [Media Samples](#media-samples)  
-8. [Unique or Impactful Aspects](#unique-or-impactful-aspects)  
-9. [Key Innovation / Differentiator](#key-innovation--differentiator)  
-10. [Potential Impact & Scalability](#potential-impact--scalability)  
-11. [License](#license)  
+   - [Example Outputs](#demo)   
 
 ---
 
@@ -78,36 +73,10 @@ The solution is designed to be **low-cost, accessible, and scalable across diver
 The prototype generates outputs in the form of **maps, analysis layers, and field insights**.  
 These can be exported as **images, videos, and interactive dashboards** for stakeholders.  
 
-### Example Outputs
-- **Raster-based maps** of paddy fields and agroforestry plots.  
-- **Shapefile visualizations** showing tree locations, canopy coverage, and survival rates.  
-- **Carbon stock estimation charts** from processed DEM/CHM data.  
-- **Mobile screenshots** of farm-level insights for farmers and surveyors.  
-- **Web dashboard visuals** displaying aggregated village-level or project-level MRV data.  
 
 ### Media Samples
 - 📸 **Images**:  
-  - `outputs/tree_detection_map.png` – Example of tree detection.  
-  - `outputs/paddy_classification.png` – Paddy crop type and yield classification.  
-  - `outputs/dashboard_view.png` – MRV dashboard screenshot.  
-
-- 🎥 **Videos**:  
-  - `outputs/farm_walkthrough.mp4` – Drone-to-dashboard workflow demo.  
-  - `outputs/android_app_demo.mp4` – Farmer app usage demonstration.  
-
----
-
-## Unique or Impactful Aspects
-- **Farmer-Centric MRV** – Empowers farmers with direct participation via mobile app.  
-- **Dual Focus** – Simultaneously monitors **paddy methane emissions** and **agroforestry carbon sequestration**.  
-- **Hybrid Data Fusion** – Combines drone, satellite, and field inputs into verifiable geospatial datasets.  
-- **Cost-Effective & Scalable** – Uses open-source geospatial tools and lightweight mobile apps to reduce MRV costs.  
-- **Aligned with NABARD’s Mission** – Directly supports rural livelihoods, sustainable farming, and inclusive climate action.  
-
----
-
-## Key Innovation / Differentiator
-- **Farmer-first approach** – Shifts MRV from top-down to participatory and field-driven.  
-- **Integrated Monitoring** – Unifies paddy and agroforestry into one MRV solution.  
-- **Data Fusion at Scale** – Merges drone imagery, satellite datasets, and ground data for high accuracy.  
-- **Affordable Climate MRV** – Tailored for small
+  - `agroforestry_tree_detection.jpg` – Example of tree detection.
+- 🎥 **Videos**: 
+  - `demo/mobile_app_demo.mp4` – farmer app visulaization demo.  
+  - `demo/web_dashboard_demo.mp4` – Farmer/surveyor web-app usage demo.  
